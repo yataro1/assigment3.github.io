@@ -1,0 +1,48 @@
+@media (max-width: 768px) {
+  #nav-bar ul {
+    margin: 0;
+    padding: 0;
+  }
+  #nav-bar .info {
+    display: none;
+  }
+
+  #target,
+  #personal-info {
+    padding: 0;
+  }
+
+  .p-5 {
+    padding: 1.5rem !important;
+  }
+
+  #personal-info ul {
+    padding: 0;
+  }
+
+  .card-1 {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .details p {
+    padding: 0.8rem;
+  }
+
+  .flex {
+    padding: 0.5rem;
+  }
+
+  .flex div {
+    display: flex;
+    align-items: center;
+  }
+
+  .flex p {
+    margin: 0;
+  }
+
+  .card-1 img {
+    width: 100%;
+  }
+}
